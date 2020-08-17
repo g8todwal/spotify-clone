@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 30px;
+  padding: 2px 5px 2px 0px ;
+}
+
+.header_left {
+  flex: 0.5;
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+  color: gray;
+  align-items: center;
+  padding: 2px;
+}
+
+.header_left > input {
+  border: none;
+  width: 100%;
+}
+
+.header_right > h6 {
+  margin-left: 10px;
+}
+
+.avatar {
+  width: 70%;
+  height: 30px;
+}
+
+.header_left > img {
+  width: 5px;
+}

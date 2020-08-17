@@ -5,7 +5,7 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 const clientId = "075a8a7b92bc4f8d8c17e3755071d1e1";
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://mystifying-hypatia-eb5661.netlify.app/";
 
 const scopes = [
   "user-read-currently-playing",
